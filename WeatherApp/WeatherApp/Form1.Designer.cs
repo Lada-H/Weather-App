@@ -63,11 +63,14 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(364, 101);
+			this.ClientSize = new System.Drawing.Size(384, 111);
 			this.Controls.Add(this.labelError);
 			this.Controls.Add(this.labelResult);
 			this.Controls.Add(this.buttonSearch);
 			this.Controls.Add(this.textBoxCityName);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+			this.MaximizeBox = false;
+			this.MinimizeBox = false;
 			this.Name = "Form1";
 			this.Text = "Weather App";
 			this.ResumeLayout(false);
